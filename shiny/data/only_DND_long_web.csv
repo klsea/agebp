@@ -1,0 +1,577 @@
+Subject,Age,Sex,BPnd,ROI,name,lobe
+DND005,24,F,1.07804833,FL_mid_fr_G_bil,Middle frontal gyrus,Frontal_lobe
+DND005,24,F,0.857308642,FL_precen_G_bil,Precentral gyrus,Frontal_lobe
+DND005,24,F,1.455930355,FL_OFC_AOG_bil,Anterior orbital gyrus,Frontal_lobe
+DND005,24,F,1.286158292,FL_inf_fr_G_bil,Inferior frontal gyrus,Frontal_lobe
+DND005,24,F,1.09652391,FL_sup_fr_G_bil,Superior frontal gyrus,Frontal_lobe
+DND005,24,F,1.595162346,FL_OFC_LOG_bil,Lateral orbital gyrus,Frontal_lobe
+DND005,24,F,1.431638785,PL_postce_G_bil,Postcentral gyrus,Parietal_lobe
+DND005,24,F,1.193704235,PL_sup_pa_G_bil,Superior parietal gyrus,Parietal_lobe
+DND005,24,F,1.730676376,PL_rest_bil,Inferiolateral remainder of parietal lobe,Parietal_lobe
+DND005,24,F,1.053773852,G_cing_ant_bil,Cingulate gyrus anterior part,Insula_and_cingulate_gyri
+DND005,24,F,0.823428322,G_cing_post_bil,Cingulate gyrus posterior part,Insula_and_cingulate_gyri
+DND005,24,F,0.921817085,white_matter,White Matter,Not applicable
+DND007,27,F,0.801766266,FL_mid_fr_G_bil,Middle frontal gyrus,Frontal_lobe
+DND007,27,F,0.57104319,FL_precen_G_bil,Precentral gyrus,Frontal_lobe
+DND007,27,F,1.340727799,FL_OFC_AOG_bil,Anterior orbital gyrus,Frontal_lobe
+DND007,27,F,0.93029471,FL_inf_fr_G_bil,Inferior frontal gyrus,Frontal_lobe
+DND007,27,F,0.859230734,FL_sup_fr_G_bil,Superior frontal gyrus,Frontal_lobe
+DND007,27,F,1.041663114,FL_OFC_LOG_bil,Lateral orbital gyrus,Frontal_lobe
+DND007,27,F,0.573232708,PL_postce_G_bil,Postcentral gyrus,Parietal_lobe
+DND007,27,F,0.745827426,PL_sup_pa_G_bil,Superior parietal gyrus,Parietal_lobe
+DND007,27,F,0.991328538,PL_rest_bil,Inferiolateral remainder of parietal lobe,Parietal_lobe
+DND007,27,F,0.774993231,G_cing_ant_bil,Cingulate gyrus anterior part,Insula_and_cingulate_gyri
+DND007,27,F,0.587602014,G_cing_post_bil,Cingulate gyrus posterior part,Insula_and_cingulate_gyri
+DND007,27,F,0.537250405,white_matter,White Matter,Not applicable
+DND011,20,F,1.061524875,FL_mid_fr_G_bil,Middle frontal gyrus,Frontal_lobe
+DND011,20,F,4.09E-97,FL_precen_G_bil,Precentral gyrus,Frontal_lobe
+DND011,20,F,1.273080578,FL_OFC_AOG_bil,Anterior orbital gyrus,Frontal_lobe
+DND011,20,F,1.114840823,FL_inf_fr_G_bil,Inferior frontal gyrus,Frontal_lobe
+DND011,20,F,0.965331348,FL_sup_fr_G_bil,Superior frontal gyrus,Frontal_lobe
+DND011,20,F,1.550555713,FL_OFC_LOG_bil,Lateral orbital gyrus,Frontal_lobe
+DND011,20,F,1.286158751,PL_postce_G_bil,Postcentral gyrus,Parietal_lobe
+DND011,20,F,0.98266537,PL_sup_pa_G_bil,Superior parietal gyrus,Parietal_lobe
+DND011,20,F,1.314096345,PL_rest_bil,Inferiolateral remainder of parietal lobe,Parietal_lobe
+DND011,20,F,0.876966214,G_cing_ant_bil,Cingulate gyrus anterior part,Insula_and_cingulate_gyri
+DND011,20,F,0.075571924,G_cing_post_bil,Cingulate gyrus posterior part,Insula_and_cingulate_gyri
+DND011,20,F,0.775303443,white_matter,White Matter,Not applicable
+DND014,29,F,1.190047291,FL_mid_fr_G_bil,Middle frontal gyrus,Frontal_lobe
+DND014,29,F,1.030424985,FL_precen_G_bil,Precentral gyrus,Frontal_lobe
+DND014,29,F,1.545026564,FL_OFC_AOG_bil,Anterior orbital gyrus,Frontal_lobe
+DND014,29,F,1.151086727,FL_inf_fr_G_bil,Inferior frontal gyrus,Frontal_lobe
+DND014,29,F,1.127397751,FL_sup_fr_G_bil,Superior frontal gyrus,Frontal_lobe
+DND014,29,F,1.578714883,FL_OFC_LOG_bil,Lateral orbital gyrus,Frontal_lobe
+DND014,29,F,1.556858626,PL_postce_G_bil,Postcentral gyrus,Parietal_lobe
+DND014,29,F,1.571211154,PL_sup_pa_G_bil,Superior parietal gyrus,Parietal_lobe
+DND014,29,F,1.936323937,PL_rest_bil,Inferiolateral remainder of parietal lobe,Parietal_lobe
+DND014,29,F,1.064845555,G_cing_ant_bil,Cingulate gyrus anterior part,Insula_and_cingulate_gyri
+DND014,29,F,1.039654179,G_cing_post_bil,Cingulate gyrus posterior part,Insula_and_cingulate_gyri
+DND014,29,F,0.94049352,white_matter,White Matter,Not applicable
+DND016,21,F,0.849749472,FL_mid_fr_G_bil,Middle frontal gyrus,Frontal_lobe
+DND016,21,F,0.705562076,FL_precen_G_bil,Precentral gyrus,Frontal_lobe
+DND016,21,F,0.877507836,FL_OFC_AOG_bil,Anterior orbital gyrus,Frontal_lobe
+DND016,21,F,0.950184005,FL_inf_fr_G_bil,Inferior frontal gyrus,Frontal_lobe
+DND016,21,F,0.821760824,FL_sup_fr_G_bil,Superior frontal gyrus,Frontal_lobe
+DND016,21,F,1.159301951,FL_OFC_LOG_bil,Lateral orbital gyrus,Frontal_lobe
+DND016,21,F,1.105569413,PL_postce_G_bil,Postcentral gyrus,Parietal_lobe
+DND016,21,F,0.404851337,PL_sup_pa_G_bil,Superior parietal gyrus,Parietal_lobe
+DND016,21,F,0.984306481,PL_rest_bil,Inferiolateral remainder of parietal lobe,Parietal_lobe
+DND016,21,F,0.741261678,G_cing_ant_bil,Cingulate gyrus anterior part,Insula_and_cingulate_gyri
+DND016,21,F,1.90E-06,G_cing_post_bil,Cingulate gyrus posterior part,Insula_and_cingulate_gyri
+DND016,21,F,0.612629946,white_matter,White Matter,Not applicable
+DND018,26,M,0.711549717,FL_mid_fr_G_bil,Middle frontal gyrus,Frontal_lobe
+DND018,26,M,0.622782991,FL_precen_G_bil,Precentral gyrus,Frontal_lobe
+DND018,26,M,0.78584517,FL_OFC_AOG_bil,Anterior orbital gyrus,Frontal_lobe
+DND018,26,M,0.854719411,FL_inf_fr_G_bil,Inferior frontal gyrus,Frontal_lobe
+DND018,26,M,0.833239055,FL_sup_fr_G_bil,Superior frontal gyrus,Frontal_lobe
+DND018,26,M,0.85738268,FL_OFC_LOG_bil,Lateral orbital gyrus,Frontal_lobe
+DND018,26,M,NA,PL_postce_G_bil,Postcentral gyrus,Parietal_lobe
+DND018,26,M,0.22200931,PL_sup_pa_G_bil,Superior parietal gyrus,Parietal_lobe
+DND018,26,M,0.754438172,PL_rest_bil,Inferiolateral remainder of parietal lobe,Parietal_lobe
+DND018,26,M,0.734279985,G_cing_ant_bil,Cingulate gyrus anterior part,Insula_and_cingulate_gyri
+DND018,26,M,0.318580857,G_cing_post_bil,Cingulate gyrus posterior part,Insula_and_cingulate_gyri
+DND018,26,M,0.453566672,white_matter,White Matter,Not applicable
+DND022,54,F,0.626264379,FL_mid_fr_G_bil,Middle frontal gyrus,Frontal_lobe
+DND022,54,F,0.722691011,FL_precen_G_bil,Precentral gyrus,Frontal_lobe
+DND022,54,F,0.789859031,FL_OFC_AOG_bil,Anterior orbital gyrus,Frontal_lobe
+DND022,54,F,0.745920464,FL_inf_fr_G_bil,Inferior frontal gyrus,Frontal_lobe
+DND022,54,F,0.659044293,FL_sup_fr_G_bil,Superior frontal gyrus,Frontal_lobe
+DND022,54,F,0.891634683,FL_OFC_LOG_bil,Lateral orbital gyrus,Frontal_lobe
+DND022,54,F,0.933877582,PL_postce_G_bil,Postcentral gyrus,Parietal_lobe
+DND022,54,F,0.829647526,PL_sup_pa_G_bil,Superior parietal gyrus,Parietal_lobe
+DND022,54,F,1.103687382,PL_rest_bil,Inferiolateral remainder of parietal lobe,Parietal_lobe
+DND022,54,F,0.642752961,G_cing_ant_bil,Cingulate gyrus anterior part,Insula_and_cingulate_gyri
+DND022,54,F,0.459931247,G_cing_post_bil,Cingulate gyrus posterior part,Insula_and_cingulate_gyri
+DND022,54,F,0.499869311,white_matter,White Matter,Not applicable
+DND023,27,M,0.803578618,FL_mid_fr_G_bil,Middle frontal gyrus,Frontal_lobe
+DND023,27,M,2.03E-08,FL_precen_G_bil,Precentral gyrus,Frontal_lobe
+DND023,27,M,1.016276598,FL_OFC_AOG_bil,Anterior orbital gyrus,Frontal_lobe
+DND023,27,M,0.849070693,FL_inf_fr_G_bil,Inferior frontal gyrus,Frontal_lobe
+DND023,27,M,0.862640872,FL_sup_fr_G_bil,Superior frontal gyrus,Frontal_lobe
+DND023,27,M,0.969321924,FL_OFC_LOG_bil,Lateral orbital gyrus,Frontal_lobe
+DND023,27,M,NA,PL_postce_G_bil,Postcentral gyrus,Parietal_lobe
+DND023,27,M,NA,PL_sup_pa_G_bil,Superior parietal gyrus,Parietal_lobe
+DND023,27,M,0.943754401,PL_rest_bil,Inferiolateral remainder of parietal lobe,Parietal_lobe
+DND023,27,M,0.781126271,G_cing_ant_bil,Cingulate gyrus anterior part,Insula_and_cingulate_gyri
+DND023,27,M,0.577101735,G_cing_post_bil,Cingulate gyrus posterior part,Insula_and_cingulate_gyri
+DND023,27,M,0.543783591,white_matter,White Matter,Not applicable
+DND027,26,M,0.89018301,FL_mid_fr_G_bil,Middle frontal gyrus,Frontal_lobe
+DND027,26,M,0.719444891,FL_precen_G_bil,Precentral gyrus,Frontal_lobe
+DND027,26,M,0.856808188,FL_OFC_AOG_bil,Anterior orbital gyrus,Frontal_lobe
+DND027,26,M,0.946825839,FL_inf_fr_G_bil,Inferior frontal gyrus,Frontal_lobe
+DND027,26,M,0.963027023,FL_sup_fr_G_bil,Superior frontal gyrus,Frontal_lobe
+DND027,26,M,1.214616881,FL_OFC_LOG_bil,Lateral orbital gyrus,Frontal_lobe
+DND027,26,M,1.172569431,PL_postce_G_bil,Postcentral gyrus,Parietal_lobe
+DND027,26,M,0.872804439,PL_sup_pa_G_bil,Superior parietal gyrus,Parietal_lobe
+DND027,26,M,1.162164148,PL_rest_bil,Inferiolateral remainder of parietal lobe,Parietal_lobe
+DND027,26,M,0.985453413,G_cing_ant_bil,Cingulate gyrus anterior part,Insula_and_cingulate_gyri
+DND027,26,M,0.793942016,G_cing_post_bil,Cingulate gyrus posterior part,Insula_and_cingulate_gyri
+DND027,26,M,0.752267603,white_matter,White Matter,Not applicable
+DND031,26,M,0.902923032,FL_mid_fr_G_bil,Middle frontal gyrus,Frontal_lobe
+DND031,26,M,0.698812283,FL_precen_G_bil,Precentral gyrus,Frontal_lobe
+DND031,26,M,1.299358707,FL_OFC_AOG_bil,Anterior orbital gyrus,Frontal_lobe
+DND031,26,M,1.111020072,FL_inf_fr_G_bil,Inferior frontal gyrus,Frontal_lobe
+DND031,26,M,0.971464545,FL_sup_fr_G_bil,Superior frontal gyrus,Frontal_lobe
+DND031,26,M,1.334697279,FL_OFC_LOG_bil,Lateral orbital gyrus,Frontal_lobe
+DND031,26,M,0.950099743,PL_postce_G_bil,Postcentral gyrus,Parietal_lobe
+DND031,26,M,0.867061675,PL_sup_pa_G_bil,Superior parietal gyrus,Parietal_lobe
+DND031,26,M,1.345906485,PL_rest_bil,Inferiolateral remainder of parietal lobe,Parietal_lobe
+DND031,26,M,0.945264944,G_cing_ant_bil,Cingulate gyrus anterior part,Insula_and_cingulate_gyri
+DND031,26,M,0.918394884,G_cing_post_bil,Cingulate gyrus posterior part,Insula_and_cingulate_gyri
+DND031,26,M,0.477102376,white_matter,White Matter,Not applicable
+DND032,57,F,NA,FL_mid_fr_G_bil,Middle frontal gyrus,Frontal_lobe
+DND032,57,F,NA,FL_precen_G_bil,Precentral gyrus,Frontal_lobe
+DND032,57,F,0.616688437,FL_OFC_AOG_bil,Anterior orbital gyrus,Frontal_lobe
+DND032,57,F,0.304155419,FL_inf_fr_G_bil,Inferior frontal gyrus,Frontal_lobe
+DND032,57,F,0.53016837,FL_sup_fr_G_bil,Superior frontal gyrus,Frontal_lobe
+DND032,57,F,0.604242017,FL_OFC_LOG_bil,Lateral orbital gyrus,Frontal_lobe
+DND032,57,F,0.215398417,PL_postce_G_bil,Postcentral gyrus,Parietal_lobe
+DND032,57,F,NA,PL_sup_pa_G_bil,Superior parietal gyrus,Parietal_lobe
+DND032,57,F,0.532118624,PL_rest_bil,Inferiolateral remainder of parietal lobe,Parietal_lobe
+DND032,57,F,0.633865542,G_cing_ant_bil,Cingulate gyrus anterior part,Insula_and_cingulate_gyri
+DND032,57,F,0.162849267,G_cing_post_bil,Cingulate gyrus posterior part,Insula_and_cingulate_gyri
+DND032,57,F,0.303548991,white_matter,White Matter,Not applicable
+DND037,28,F,0.472812358,FL_mid_fr_G_bil,Middle frontal gyrus,Frontal_lobe
+DND037,28,F,0.335728274,FL_precen_G_bil,Precentral gyrus,Frontal_lobe
+DND037,28,F,0.833745948,FL_OFC_AOG_bil,Anterior orbital gyrus,Frontal_lobe
+DND037,28,F,0.554377911,FL_inf_fr_G_bil,Inferior frontal gyrus,Frontal_lobe
+DND037,28,F,0.576453945,FL_sup_fr_G_bil,Superior frontal gyrus,Frontal_lobe
+DND037,28,F,0.797670287,FL_OFC_LOG_bil,Lateral orbital gyrus,Frontal_lobe
+DND037,28,F,0.179099324,PL_postce_G_bil,Postcentral gyrus,Parietal_lobe
+DND037,28,F,0.328646625,PL_sup_pa_G_bil,Superior parietal gyrus,Parietal_lobe
+DND037,28,F,0.629024177,PL_rest_bil,Inferiolateral remainder of parietal lobe,Parietal_lobe
+DND037,28,F,0.630439051,G_cing_ant_bil,Cingulate gyrus anterior part,Insula_and_cingulate_gyri
+DND037,28,F,0.280247861,G_cing_post_bil,Cingulate gyrus posterior part,Insula_and_cingulate_gyri
+DND037,28,F,0.523712011,white_matter,White Matter,Not applicable
+DND039,25,M,1.237975933,FL_mid_fr_G_bil,Middle frontal gyrus,Frontal_lobe
+DND039,25,M,1.018814301,FL_precen_G_bil,Precentral gyrus,Frontal_lobe
+DND039,25,M,1.539655176,FL_OFC_AOG_bil,Anterior orbital gyrus,Frontal_lobe
+DND039,25,M,1.47139762,FL_inf_fr_G_bil,Inferior frontal gyrus,Frontal_lobe
+DND039,25,M,1.388599889,FL_sup_fr_G_bil,Superior frontal gyrus,Frontal_lobe
+DND039,25,M,1.799066476,FL_OFC_LOG_bil,Lateral orbital gyrus,Frontal_lobe
+DND039,25,M,1.265748107,PL_postce_G_bil,Postcentral gyrus,Parietal_lobe
+DND039,25,M,1.033075379,PL_sup_pa_G_bil,Superior parietal gyrus,Parietal_lobe
+DND039,25,M,1.30318978,PL_rest_bil,Inferiolateral remainder of parietal lobe,Parietal_lobe
+DND039,25,M,1.408205349,G_cing_ant_bil,Cingulate gyrus anterior part,Insula_and_cingulate_gyri
+DND039,25,M,1.086727333,G_cing_post_bil,Cingulate gyrus posterior part,Insula_and_cingulate_gyri
+DND039,25,M,0.81066172,white_matter,White Matter,Not applicable
+DND040,25,M,0.706582353,FL_mid_fr_G_bil,Middle frontal gyrus,Frontal_lobe
+DND040,25,M,NA,FL_precen_G_bil,Precentral gyrus,Frontal_lobe
+DND040,25,M,0.872095081,FL_OFC_AOG_bil,Anterior orbital gyrus,Frontal_lobe
+DND040,25,M,0.640834451,FL_inf_fr_G_bil,Inferior frontal gyrus,Frontal_lobe
+DND040,25,M,0.73093125,FL_sup_fr_G_bil,Superior frontal gyrus,Frontal_lobe
+DND040,25,M,0.725944206,FL_OFC_LOG_bil,Lateral orbital gyrus,Frontal_lobe
+DND040,25,M,0.739068449,PL_postce_G_bil,Postcentral gyrus,Parietal_lobe
+DND040,25,M,0.689987588,PL_sup_pa_G_bil,Superior parietal gyrus,Parietal_lobe
+DND040,25,M,0.821644203,PL_rest_bil,Inferiolateral remainder of parietal lobe,Parietal_lobe
+DND040,25,M,0.717478096,G_cing_ant_bil,Cingulate gyrus anterior part,Insula_and_cingulate_gyri
+DND040,25,M,0.489475626,G_cing_post_bil,Cingulate gyrus posterior part,Insula_and_cingulate_gyri
+DND040,25,M,0.509646091,white_matter,White Matter,Not applicable
+DND041,29,M,NA,FL_mid_fr_G_bil,Middle frontal gyrus,Frontal_lobe
+DND041,29,M,0.620381014,FL_precen_G_bil,Precentral gyrus,Frontal_lobe
+DND041,29,M,1.606378823,FL_OFC_AOG_bil,Anterior orbital gyrus,Frontal_lobe
+DND041,29,M,1.43563897,FL_inf_fr_G_bil,Inferior frontal gyrus,Frontal_lobe
+DND041,29,M,NA,FL_sup_fr_G_bil,Superior frontal gyrus,Frontal_lobe
+DND041,29,M,1.689192573,FL_OFC_LOG_bil,Lateral orbital gyrus,Frontal_lobe
+DND041,29,M,1.420928304,PL_postce_G_bil,Postcentral gyrus,Parietal_lobe
+DND041,29,M,2.69E-05,PL_sup_pa_G_bil,Superior parietal gyrus,Parietal_lobe
+DND041,29,M,1.679252224,PL_rest_bil,Inferiolateral remainder of parietal lobe,Parietal_lobe
+DND041,29,M,NA,G_cing_ant_bil,Cingulate gyrus anterior part,Insula_and_cingulate_gyri
+DND041,29,M,0.402559151,G_cing_post_bil,Cingulate gyrus posterior part,Insula_and_cingulate_gyri
+DND041,29,M,0.961289414,white_matter,White Matter,Not applicable
+DND042,27,M,0.623446232,FL_mid_fr_G_bil,Middle frontal gyrus,Frontal_lobe
+DND042,27,M,0.396397183,FL_precen_G_bil,Precentral gyrus,Frontal_lobe
+DND042,27,M,0.778803733,FL_OFC_AOG_bil,Anterior orbital gyrus,Frontal_lobe
+DND042,27,M,0.685352097,FL_inf_fr_G_bil,Inferior frontal gyrus,Frontal_lobe
+DND042,27,M,0.653205014,FL_sup_fr_G_bil,Superior frontal gyrus,Frontal_lobe
+DND042,27,M,0.913356743,FL_OFC_LOG_bil,Lateral orbital gyrus,Frontal_lobe
+DND042,27,M,0.694897332,PL_postce_G_bil,Postcentral gyrus,Parietal_lobe
+DND042,27,M,NA,PL_sup_pa_G_bil,Superior parietal gyrus,Parietal_lobe
+DND042,27,M,0.744618703,PL_rest_bil,Inferiolateral remainder of parietal lobe,Parietal_lobe
+DND042,27,M,0.610942723,G_cing_ant_bil,Cingulate gyrus anterior part,Insula_and_cingulate_gyri
+DND042,27,M,0.251075039,G_cing_post_bil,Cingulate gyrus posterior part,Insula_and_cingulate_gyri
+DND042,27,M,0.331644386,white_matter,White Matter,Not applicable
+DND048,29,F,0.902212204,FL_mid_fr_G_bil,Middle frontal gyrus,Frontal_lobe
+DND048,29,F,0.213793483,FL_precen_G_bil,Precentral gyrus,Frontal_lobe
+DND048,29,F,1.200958506,FL_OFC_AOG_bil,Anterior orbital gyrus,Frontal_lobe
+DND048,29,F,0.945903288,FL_inf_fr_G_bil,Inferior frontal gyrus,Frontal_lobe
+DND048,29,F,0.887084934,FL_sup_fr_G_bil,Superior frontal gyrus,Frontal_lobe
+DND048,29,F,1.288339439,FL_OFC_LOG_bil,Lateral orbital gyrus,Frontal_lobe
+DND048,29,F,0.73903964,PL_postce_G_bil,Postcentral gyrus,Parietal_lobe
+DND048,29,F,1.007019868,PL_sup_pa_G_bil,Superior parietal gyrus,Parietal_lobe
+DND048,29,F,1.315079748,PL_rest_bil,Inferiolateral remainder of parietal lobe,Parietal_lobe
+DND048,29,F,0.95731471,G_cing_ant_bil,Cingulate gyrus anterior part,Insula_and_cingulate_gyri
+DND048,29,F,0.891601534,G_cing_post_bil,Cingulate gyrus posterior part,Insula_and_cingulate_gyri
+DND048,29,F,0.696947335,white_matter,White Matter,Not applicable
+DND050,27,F,NA,FL_mid_fr_G_bil,Middle frontal gyrus,Frontal_lobe
+DND050,27,F,0.277318077,FL_precen_G_bil,Precentral gyrus,Frontal_lobe
+DND050,27,F,0.730915497,FL_OFC_AOG_bil,Anterior orbital gyrus,Frontal_lobe
+DND050,27,F,0.922434657,FL_inf_fr_G_bil,Inferior frontal gyrus,Frontal_lobe
+DND050,27,F,0.680240128,FL_sup_fr_G_bil,Superior frontal gyrus,Frontal_lobe
+DND050,27,F,0.450433334,FL_OFC_LOG_bil,Lateral orbital gyrus,Frontal_lobe
+DND050,27,F,NA,PL_postce_G_bil,Postcentral gyrus,Parietal_lobe
+DND050,27,F,0.095799868,PL_sup_pa_G_bil,Superior parietal gyrus,Parietal_lobe
+DND050,27,F,0.737017866,PL_rest_bil,Inferiolateral remainder of parietal lobe,Parietal_lobe
+DND050,27,F,0.724271547,G_cing_ant_bil,Cingulate gyrus anterior part,Insula_and_cingulate_gyri
+DND050,27,F,0.121786626,G_cing_post_bil,Cingulate gyrus posterior part,Insula_and_cingulate_gyri
+DND050,27,F,0.561250626,white_matter,White Matter,Not applicable
+DND052,52,M,0.61918619,FL_mid_fr_G_bil,Middle frontal gyrus,Frontal_lobe
+DND052,52,M,0.510434617,FL_precen_G_bil,Precentral gyrus,Frontal_lobe
+DND052,52,M,0.672855403,FL_OFC_AOG_bil,Anterior orbital gyrus,Frontal_lobe
+DND052,52,M,0.732134688,FL_inf_fr_G_bil,Inferior frontal gyrus,Frontal_lobe
+DND052,52,M,0.710131072,FL_sup_fr_G_bil,Superior frontal gyrus,Frontal_lobe
+DND052,52,M,0.575593642,FL_OFC_LOG_bil,Lateral orbital gyrus,Frontal_lobe
+DND052,52,M,0.495109309,PL_postce_G_bil,Postcentral gyrus,Parietal_lobe
+DND052,52,M,0.436711968,PL_sup_pa_G_bil,Superior parietal gyrus,Parietal_lobe
+DND052,52,M,0.672964773,PL_rest_bil,Inferiolateral remainder of parietal lobe,Parietal_lobe
+DND052,52,M,0.57622089,G_cing_ant_bil,Cingulate gyrus anterior part,Insula_and_cingulate_gyri
+DND052,52,M,0.431582378,G_cing_post_bil,Cingulate gyrus posterior part,Insula_and_cingulate_gyri
+DND052,52,M,0.379841244,white_matter,White Matter,Not applicable
+DND060,57,M,0.695024171,FL_mid_fr_G_bil,Middle frontal gyrus,Frontal_lobe
+DND060,57,M,0.557748446,FL_precen_G_bil,Precentral gyrus,Frontal_lobe
+DND060,57,M,0.888645989,FL_OFC_AOG_bil,Anterior orbital gyrus,Frontal_lobe
+DND060,57,M,0.75190167,FL_inf_fr_G_bil,Inferior frontal gyrus,Frontal_lobe
+DND060,57,M,0.763792292,FL_sup_fr_G_bil,Superior frontal gyrus,Frontal_lobe
+DND060,57,M,0.091892232,FL_OFC_LOG_bil,Lateral orbital gyrus,Frontal_lobe
+DND060,57,M,0.598731451,PL_postce_G_bil,Postcentral gyrus,Parietal_lobe
+DND060,57,M,0.699431605,PL_sup_pa_G_bil,Superior parietal gyrus,Parietal_lobe
+DND060,57,M,0.933452648,PL_rest_bil,Inferiolateral remainder of parietal lobe,Parietal_lobe
+DND060,57,M,0.831251992,G_cing_ant_bil,Cingulate gyrus anterior part,Insula_and_cingulate_gyri
+DND060,57,M,0.574208282,G_cing_post_bil,Cingulate gyrus posterior part,Insula_and_cingulate_gyri
+DND060,57,M,0.529366756,white_matter,White Matter,Not applicable
+DND062,23,M,0.727685068,FL_mid_fr_G_bil,Middle frontal gyrus,Frontal_lobe
+DND062,23,M,NA,FL_precen_G_bil,Precentral gyrus,Frontal_lobe
+DND062,23,M,0.881468125,FL_OFC_AOG_bil,Anterior orbital gyrus,Frontal_lobe
+DND062,23,M,0.834325085,FL_inf_fr_G_bil,Inferior frontal gyrus,Frontal_lobe
+DND062,23,M,0.804431684,FL_sup_fr_G_bil,Superior frontal gyrus,Frontal_lobe
+DND062,23,M,0.902212139,FL_OFC_LOG_bil,Lateral orbital gyrus,Frontal_lobe
+DND062,23,M,0.70987018,PL_postce_G_bil,Postcentral gyrus,Parietal_lobe
+DND062,23,M,NA,PL_sup_pa_G_bil,Superior parietal gyrus,Parietal_lobe
+DND062,23,M,0.819223148,PL_rest_bil,Inferiolateral remainder of parietal lobe,Parietal_lobe
+DND062,23,M,0.781249633,G_cing_ant_bil,Cingulate gyrus anterior part,Insula_and_cingulate_gyri
+DND062,23,M,0.66189928,G_cing_post_bil,Cingulate gyrus posterior part,Insula_and_cingulate_gyri
+DND062,23,M,0.545952004,white_matter,White Matter,Not applicable
+DND069,29,M,1.068073499,FL_mid_fr_G_bil,Middle frontal gyrus,Frontal_lobe
+DND069,29,M,0.801228419,FL_precen_G_bil,Precentral gyrus,Frontal_lobe
+DND069,29,M,1.53691413,FL_OFC_AOG_bil,Anterior orbital gyrus,Frontal_lobe
+DND069,29,M,1.140767319,FL_inf_fr_G_bil,Inferior frontal gyrus,Frontal_lobe
+DND069,29,M,1.101352873,FL_sup_fr_G_bil,Superior frontal gyrus,Frontal_lobe
+DND069,29,M,1.525112892,FL_OFC_LOG_bil,Lateral orbital gyrus,Frontal_lobe
+DND069,29,M,0.883457148,PL_postce_G_bil,Postcentral gyrus,Parietal_lobe
+DND069,29,M,1.008795632,PL_sup_pa_G_bil,Superior parietal gyrus,Parietal_lobe
+DND069,29,M,1.296175412,PL_rest_bil,Inferiolateral remainder of parietal lobe,Parietal_lobe
+DND069,29,M,1.081261322,G_cing_ant_bil,Cingulate gyrus anterior part,Insula_and_cingulate_gyri
+DND069,29,M,0.891764986,G_cing_post_bil,Cingulate gyrus posterior part,Insula_and_cingulate_gyri
+DND069,29,M,0.583951966,white_matter,White Matter,Not applicable
+DND072,26,M,0.770996101,FL_mid_fr_G_bil,Middle frontal gyrus,Frontal_lobe
+DND072,26,M,0.232352283,FL_precen_G_bil,Precentral gyrus,Frontal_lobe
+DND072,26,M,0.885900788,FL_OFC_AOG_bil,Anterior orbital gyrus,Frontal_lobe
+DND072,26,M,0.914374801,FL_inf_fr_G_bil,Inferior frontal gyrus,Frontal_lobe
+DND072,26,M,0.816488687,FL_sup_fr_G_bil,Superior frontal gyrus,Frontal_lobe
+DND072,26,M,0.984225455,FL_OFC_LOG_bil,Lateral orbital gyrus,Frontal_lobe
+DND072,26,M,NA,PL_postce_G_bil,Postcentral gyrus,Parietal_lobe
+DND072,26,M,0.735350596,PL_sup_pa_G_bil,Superior parietal gyrus,Parietal_lobe
+DND072,26,M,0.93077254,PL_rest_bil,Inferiolateral remainder of parietal lobe,Parietal_lobe
+DND072,26,M,0.72731187,G_cing_ant_bil,Cingulate gyrus anterior part,Insula_and_cingulate_gyri
+DND072,26,M,0.682151386,G_cing_post_bil,Cingulate gyrus posterior part,Insula_and_cingulate_gyri
+DND072,26,M,0.631369176,white_matter,White Matter,Not applicable
+DND074,24,F,1.181247733,FL_mid_fr_G_bil,Middle frontal gyrus,Frontal_lobe
+DND074,24,F,0.808302864,FL_precen_G_bil,Precentral gyrus,Frontal_lobe
+DND074,24,F,1.440823968,FL_OFC_AOG_bil,Anterior orbital gyrus,Frontal_lobe
+DND074,24,F,1.449682437,FL_inf_fr_G_bil,Inferior frontal gyrus,Frontal_lobe
+DND074,24,F,1.252705918,FL_sup_fr_G_bil,Superior frontal gyrus,Frontal_lobe
+DND074,24,F,1.762153978,FL_OFC_LOG_bil,Lateral orbital gyrus,Frontal_lobe
+DND074,24,F,1.269138578,PL_postce_G_bil,Postcentral gyrus,Parietal_lobe
+DND074,24,F,1.056030625,PL_sup_pa_G_bil,Superior parietal gyrus,Parietal_lobe
+DND074,24,F,1.468605106,PL_rest_bil,Inferiolateral remainder of parietal lobe,Parietal_lobe
+DND074,24,F,1.250223242,G_cing_ant_bil,Cingulate gyrus anterior part,Insula_and_cingulate_gyri
+DND074,24,F,0.819864397,G_cing_post_bil,Cingulate gyrus posterior part,Insula_and_cingulate_gyri
+DND074,24,F,1.003271608,white_matter,White Matter,Not applicable
+DND077,23,F,1.074340178,FL_mid_fr_G_bil,Middle frontal gyrus,Frontal_lobe
+DND077,23,F,0.676895463,FL_precen_G_bil,Precentral gyrus,Frontal_lobe
+DND077,23,F,1.483628338,FL_OFC_AOG_bil,Anterior orbital gyrus,Frontal_lobe
+DND077,23,F,1.05500672,FL_inf_fr_G_bil,Inferior frontal gyrus,Frontal_lobe
+DND077,23,F,1.091187801,FL_sup_fr_G_bil,Superior frontal gyrus,Frontal_lobe
+DND077,23,F,1.329016157,FL_OFC_LOG_bil,Lateral orbital gyrus,Frontal_lobe
+DND077,23,F,0.75493632,PL_postce_G_bil,Postcentral gyrus,Parietal_lobe
+DND077,23,F,0.915589993,PL_sup_pa_G_bil,Superior parietal gyrus,Parietal_lobe
+DND077,23,F,1.193043753,PL_rest_bil,Inferiolateral remainder of parietal lobe,Parietal_lobe
+DND077,23,F,1.079542613,G_cing_ant_bil,Cingulate gyrus anterior part,Insula_and_cingulate_gyri
+DND077,23,F,0.876715951,G_cing_post_bil,Cingulate gyrus posterior part,Insula_and_cingulate_gyri
+DND077,23,F,0.867945729,white_matter,White Matter,Not applicable
+DND078,53,F,0.88485335,FL_mid_fr_G_bil,Middle frontal gyrus,Frontal_lobe
+DND078,53,F,0.723818388,FL_precen_G_bil,Precentral gyrus,Frontal_lobe
+DND078,53,F,1.023518598,FL_OFC_AOG_bil,Anterior orbital gyrus,Frontal_lobe
+DND078,53,F,0.947100866,FL_inf_fr_G_bil,Inferior frontal gyrus,Frontal_lobe
+DND078,53,F,0.880434821,FL_sup_fr_G_bil,Superior frontal gyrus,Frontal_lobe
+DND078,53,F,1.067840198,FL_OFC_LOG_bil,Lateral orbital gyrus,Frontal_lobe
+DND078,53,F,1.046976945,PL_postce_G_bil,Postcentral gyrus,Parietal_lobe
+DND078,53,F,0.954612445,PL_sup_pa_G_bil,Superior parietal gyrus,Parietal_lobe
+DND078,53,F,1.146314203,PL_rest_bil,Inferiolateral remainder of parietal lobe,Parietal_lobe
+DND078,53,F,0.715269086,G_cing_ant_bil,Cingulate gyrus anterior part,Insula_and_cingulate_gyri
+DND078,53,F,0.425855307,G_cing_post_bil,Cingulate gyrus posterior part,Insula_and_cingulate_gyri
+DND078,53,F,0.64427143,white_matter,White Matter,Not applicable
+DND080,56,M,5.50E-89,FL_mid_fr_G_bil,Middle frontal gyrus,Frontal_lobe
+DND080,56,M,0.342632969,FL_precen_G_bil,Precentral gyrus,Frontal_lobe
+DND080,56,M,0.313064965,FL_OFC_AOG_bil,Anterior orbital gyrus,Frontal_lobe
+DND080,56,M,0.303451764,FL_inf_fr_G_bil,Inferior frontal gyrus,Frontal_lobe
+DND080,56,M,NA,FL_sup_fr_G_bil,Superior frontal gyrus,Frontal_lobe
+DND080,56,M,0.25862977,FL_OFC_LOG_bil,Lateral orbital gyrus,Frontal_lobe
+DND080,56,M,NA,PL_postce_G_bil,Postcentral gyrus,Parietal_lobe
+DND080,56,M,NA,PL_sup_pa_G_bil,Superior parietal gyrus,Parietal_lobe
+DND080,56,M,4.22E-08,PL_rest_bil,Inferiolateral remainder of parietal lobe,Parietal_lobe
+DND080,56,M,0.642817,G_cing_ant_bil,Cingulate gyrus anterior part,Insula_and_cingulate_gyri
+DND080,56,M,0.233462908,G_cing_post_bil,Cingulate gyrus posterior part,Insula_and_cingulate_gyri
+DND080,56,M,0.351394539,white_matter,White Matter,Not applicable
+DND084,23,F,0.820909377,FL_mid_fr_G_bil,Middle frontal gyrus,Frontal_lobe
+DND084,23,F,0.658226016,FL_precen_G_bil,Precentral gyrus,Frontal_lobe
+DND084,23,F,1.258000551,FL_OFC_AOG_bil,Anterior orbital gyrus,Frontal_lobe
+DND084,23,F,0.876705382,FL_inf_fr_G_bil,Inferior frontal gyrus,Frontal_lobe
+DND084,23,F,0.902272866,FL_sup_fr_G_bil,Superior frontal gyrus,Frontal_lobe
+DND084,23,F,1.043026914,FL_OFC_LOG_bil,Lateral orbital gyrus,Frontal_lobe
+DND084,23,F,0.748092111,PL_postce_G_bil,Postcentral gyrus,Parietal_lobe
+DND084,23,F,0.69978683,PL_sup_pa_G_bil,Superior parietal gyrus,Parietal_lobe
+DND084,23,F,0.975617856,PL_rest_bil,Inferiolateral remainder of parietal lobe,Parietal_lobe
+DND084,23,F,0.774758943,G_cing_ant_bil,Cingulate gyrus anterior part,Insula_and_cingulate_gyri
+DND084,23,F,0.587634919,G_cing_post_bil,Cingulate gyrus posterior part,Insula_and_cingulate_gyri
+DND084,23,F,0.47455924,white_matter,White Matter,Not applicable
+DND087,57,F,0.424706426,FL_mid_fr_G_bil,Middle frontal gyrus,Frontal_lobe
+DND087,57,F,0.234124182,FL_precen_G_bil,Precentral gyrus,Frontal_lobe
+DND087,57,F,0.673744222,FL_OFC_AOG_bil,Anterior orbital gyrus,Frontal_lobe
+DND087,57,F,0.553753954,FL_inf_fr_G_bil,Inferior frontal gyrus,Frontal_lobe
+DND087,57,F,0.533994296,FL_sup_fr_G_bil,Superior frontal gyrus,Frontal_lobe
+DND087,57,F,0.56267356,FL_OFC_LOG_bil,Lateral orbital gyrus,Frontal_lobe
+DND087,57,F,0.274145279,PL_postce_G_bil,Postcentral gyrus,Parietal_lobe
+DND087,57,F,0.356229514,PL_sup_pa_G_bil,Superior parietal gyrus,Parietal_lobe
+DND087,57,F,0.655153124,PL_rest_bil,Inferiolateral remainder of parietal lobe,Parietal_lobe
+DND087,57,F,0.638173409,G_cing_ant_bil,Cingulate gyrus anterior part,Insula_and_cingulate_gyri
+DND087,57,F,0.421214896,G_cing_post_bil,Cingulate gyrus posterior part,Insula_and_cingulate_gyri
+DND087,57,F,0.415802719,white_matter,White Matter,Not applicable
+DND088,55,F,0.126939634,FL_mid_fr_G_bil,Middle frontal gyrus,Frontal_lobe
+DND088,55,F,NA,FL_precen_G_bil,Precentral gyrus,Frontal_lobe
+DND088,55,F,0.219498112,FL_OFC_AOG_bil,Anterior orbital gyrus,Frontal_lobe
+DND088,55,F,NA,FL_inf_fr_G_bil,Inferior frontal gyrus,Frontal_lobe
+DND088,55,F,0.236043771,FL_sup_fr_G_bil,Superior frontal gyrus,Frontal_lobe
+DND088,55,F,NA,FL_OFC_LOG_bil,Lateral orbital gyrus,Frontal_lobe
+DND088,55,F,NA,PL_postce_G_bil,Postcentral gyrus,Parietal_lobe
+DND088,55,F,0.349614933,PL_sup_pa_G_bil,Superior parietal gyrus,Parietal_lobe
+DND088,55,F,1.80E-08,PL_rest_bil,Inferiolateral remainder of parietal lobe,Parietal_lobe
+DND088,55,F,0.607807666,G_cing_ant_bil,Cingulate gyrus anterior part,Insula_and_cingulate_gyri
+DND088,55,F,0.331071007,G_cing_post_bil,Cingulate gyrus posterior part,Insula_and_cingulate_gyri
+DND088,55,F,0.340276661,white_matter,White Matter,Not applicable
+DND089,57,F,NA,FL_mid_fr_G_bil,Middle frontal gyrus,Frontal_lobe
+DND089,57,F,2.13E-07,FL_precen_G_bil,Precentral gyrus,Frontal_lobe
+DND089,57,F,0.64871749,FL_OFC_AOG_bil,Anterior orbital gyrus,Frontal_lobe
+DND089,57,F,0.552421609,FL_inf_fr_G_bil,Inferior frontal gyrus,Frontal_lobe
+DND089,57,F,0.568184667,FL_sup_fr_G_bil,Superior frontal gyrus,Frontal_lobe
+DND089,57,F,0.601135523,FL_OFC_LOG_bil,Lateral orbital gyrus,Frontal_lobe
+DND089,57,F,0.620206437,PL_postce_G_bil,Postcentral gyrus,Parietal_lobe
+DND089,57,F,0.631939809,PL_sup_pa_G_bil,Superior parietal gyrus,Parietal_lobe
+DND089,57,F,0.783661029,PL_rest_bil,Inferiolateral remainder of parietal lobe,Parietal_lobe
+DND089,57,F,0.567103824,G_cing_ant_bil,Cingulate gyrus anterior part,Insula_and_cingulate_gyri
+DND089,57,F,0.468431074,G_cing_post_bil,Cingulate gyrus posterior part,Insula_and_cingulate_gyri
+DND089,57,F,0.404398802,white_matter,White Matter,Not applicable
+DND090,29,M,0.608266817,FL_mid_fr_G_bil,Middle frontal gyrus,Frontal_lobe
+DND090,29,M,0.343034258,FL_precen_G_bil,Precentral gyrus,Frontal_lobe
+DND090,29,M,0.819716721,FL_OFC_AOG_bil,Anterior orbital gyrus,Frontal_lobe
+DND090,29,M,0.621251097,FL_inf_fr_G_bil,Inferior frontal gyrus,Frontal_lobe
+DND090,29,M,0.720275095,FL_sup_fr_G_bil,Superior frontal gyrus,Frontal_lobe
+DND090,29,M,0.534867176,FL_OFC_LOG_bil,Lateral orbital gyrus,Frontal_lobe
+DND090,29,M,0.516373424,PL_postce_G_bil,Postcentral gyrus,Parietal_lobe
+DND090,29,M,0.547371391,PL_sup_pa_G_bil,Superior parietal gyrus,Parietal_lobe
+DND090,29,M,0.755719788,PL_rest_bil,Inferiolateral remainder of parietal lobe,Parietal_lobe
+DND090,29,M,0.884711455,G_cing_ant_bil,Cingulate gyrus anterior part,Insula_and_cingulate_gyri
+DND090,29,M,0.513462044,G_cing_post_bil,Cingulate gyrus posterior part,Insula_and_cingulate_gyri
+DND090,29,M,0.673444917,white_matter,White Matter,Not applicable
+DND091,51,F,0.194606851,FL_mid_fr_G_bil,Middle frontal gyrus,Frontal_lobe
+DND091,51,F,0.153746383,FL_precen_G_bil,Precentral gyrus,Frontal_lobe
+DND091,51,F,0.610838487,FL_OFC_AOG_bil,Anterior orbital gyrus,Frontal_lobe
+DND091,51,F,0.578831764,FL_inf_fr_G_bil,Inferior frontal gyrus,Frontal_lobe
+DND091,51,F,0.437080503,FL_sup_fr_G_bil,Superior frontal gyrus,Frontal_lobe
+DND091,51,F,1.270241803,FL_OFC_LOG_bil,Lateral orbital gyrus,Frontal_lobe
+DND091,51,F,0.200769944,PL_postce_G_bil,Postcentral gyrus,Parietal_lobe
+DND091,51,F,NA,PL_sup_pa_G_bil,Superior parietal gyrus,Parietal_lobe
+DND091,51,F,0.552862453,PL_rest_bil,Inferiolateral remainder of parietal lobe,Parietal_lobe
+DND091,51,F,0.69669331,G_cing_ant_bil,Cingulate gyrus anterior part,Insula_and_cingulate_gyri
+DND091,51,F,3.46E-07,G_cing_post_bil,Cingulate gyrus posterior part,Insula_and_cingulate_gyri
+DND091,51,F,0.586714328,white_matter,White Matter,Not applicable
+DND093,54,M,0.037416101,FL_mid_fr_G_bil,Middle frontal gyrus,Frontal_lobe
+DND093,54,M,0.249252571,FL_precen_G_bil,Precentral gyrus,Frontal_lobe
+DND093,54,M,NA,FL_OFC_AOG_bil,Anterior orbital gyrus,Frontal_lobe
+DND093,54,M,NA,FL_inf_fr_G_bil,Inferior frontal gyrus,Frontal_lobe
+DND093,54,M,NA,FL_sup_fr_G_bil,Superior frontal gyrus,Frontal_lobe
+DND093,54,M,0.954612773,FL_OFC_LOG_bil,Lateral orbital gyrus,Frontal_lobe
+DND093,54,M,0.032131804,PL_postce_G_bil,Postcentral gyrus,Parietal_lobe
+DND093,54,M,0.033565206,PL_sup_pa_G_bil,Superior parietal gyrus,Parietal_lobe
+DND093,54,M,NA,PL_rest_bil,Inferiolateral remainder of parietal lobe,Parietal_lobe
+DND093,54,M,0.635460297,G_cing_ant_bil,Cingulate gyrus anterior part,Insula_and_cingulate_gyri
+DND093,54,M,0.114402013,G_cing_post_bil,Cingulate gyrus posterior part,Insula_and_cingulate_gyri
+DND093,54,M,0.415769716,white_matter,White Matter,Not applicable
+DND097,53,F,0.641172174,FL_mid_fr_G_bil,Middle frontal gyrus,Frontal_lobe
+DND097,53,F,0.440806927,FL_precen_G_bil,Precentral gyrus,Frontal_lobe
+DND097,53,F,0.855993424,FL_OFC_AOG_bil,Anterior orbital gyrus,Frontal_lobe
+DND097,53,F,0.720668651,FL_inf_fr_G_bil,Inferior frontal gyrus,Frontal_lobe
+DND097,53,F,0.782325997,FL_sup_fr_G_bil,Superior frontal gyrus,Frontal_lobe
+DND097,53,F,0.542462787,FL_OFC_LOG_bil,Lateral orbital gyrus,Frontal_lobe
+DND097,53,F,1.86E-06,PL_postce_G_bil,Postcentral gyrus,Parietal_lobe
+DND097,53,F,0.199189283,PL_sup_pa_G_bil,Superior parietal gyrus,Parietal_lobe
+DND097,53,F,0.662636931,PL_rest_bil,Inferiolateral remainder of parietal lobe,Parietal_lobe
+DND097,53,F,0.898754244,G_cing_ant_bil,Cingulate gyrus anterior part,Insula_and_cingulate_gyri
+DND097,53,F,0.370062424,G_cing_post_bil,Cingulate gyrus posterior part,Insula_and_cingulate_gyri
+DND097,53,F,0.5339908,white_matter,White Matter,Not applicable
+DND099,57,M,2.50E-07,FL_mid_fr_G_bil,Middle frontal gyrus,Frontal_lobe
+DND099,57,M,NA,FL_precen_G_bil,Precentral gyrus,Frontal_lobe
+DND099,57,M,0.586570617,FL_OFC_AOG_bil,Anterior orbital gyrus,Frontal_lobe
+DND099,57,M,0.344819006,FL_inf_fr_G_bil,Inferior frontal gyrus,Frontal_lobe
+DND099,57,M,0.38924457,FL_sup_fr_G_bil,Superior frontal gyrus,Frontal_lobe
+DND099,57,M,0.286674555,FL_OFC_LOG_bil,Lateral orbital gyrus,Frontal_lobe
+DND099,57,M,9.70E-96,PL_postce_G_bil,Postcentral gyrus,Parietal_lobe
+DND099,57,M,0.121947785,PL_sup_pa_G_bil,Superior parietal gyrus,Parietal_lobe
+DND099,57,M,0.252824955,PL_rest_bil,Inferiolateral remainder of parietal lobe,Parietal_lobe
+DND099,57,M,0.574398197,G_cing_ant_bil,Cingulate gyrus anterior part,Insula_and_cingulate_gyri
+DND099,57,M,1.61E-08,G_cing_post_bil,Cingulate gyrus posterior part,Insula_and_cingulate_gyri
+DND099,57,M,0.305140757,white_matter,White Matter,Not applicable
+DND100,59,M,0.755627102,FL_mid_fr_G_bil,Middle frontal gyrus,Frontal_lobe
+DND100,59,M,0.64966136,FL_precen_G_bil,Precentral gyrus,Frontal_lobe
+DND100,59,M,1.016758352,FL_OFC_AOG_bil,Anterior orbital gyrus,Frontal_lobe
+DND100,59,M,0.819036586,FL_inf_fr_G_bil,Inferior frontal gyrus,Frontal_lobe
+DND100,59,M,0.791529147,FL_sup_fr_G_bil,Superior frontal gyrus,Frontal_lobe
+DND100,59,M,0.772553899,FL_OFC_LOG_bil,Lateral orbital gyrus,Frontal_lobe
+DND100,59,M,0.812913677,PL_postce_G_bil,Postcentral gyrus,Parietal_lobe
+DND100,59,M,0.838724008,PL_sup_pa_G_bil,Superior parietal gyrus,Parietal_lobe
+DND100,59,M,1.05367739,PL_rest_bil,Inferiolateral remainder of parietal lobe,Parietal_lobe
+DND100,59,M,0.811708291,G_cing_ant_bil,Cingulate gyrus anterior part,Insula_and_cingulate_gyri
+DND100,59,M,0.646971475,G_cing_post_bil,Cingulate gyrus posterior part,Insula_and_cingulate_gyri
+DND100,59,M,0.460938637,white_matter,White Matter,Not applicable
+DND104,56,F,0.020091909,FL_mid_fr_G_bil,Middle frontal gyrus,Frontal_lobe
+DND104,56,F,NA,FL_precen_G_bil,Precentral gyrus,Frontal_lobe
+DND104,56,F,0.381367203,FL_OFC_AOG_bil,Anterior orbital gyrus,Frontal_lobe
+DND104,56,F,1.89E-95,FL_inf_fr_G_bil,Inferior frontal gyrus,Frontal_lobe
+DND104,56,F,NA,FL_sup_fr_G_bil,Superior frontal gyrus,Frontal_lobe
+DND104,56,F,4.47E-95,FL_OFC_LOG_bil,Lateral orbital gyrus,Frontal_lobe
+DND104,56,F,9.95E-97,PL_postce_G_bil,Postcentral gyrus,Parietal_lobe
+DND104,56,F,0.133832617,PL_sup_pa_G_bil,Superior parietal gyrus,Parietal_lobe
+DND104,56,F,1.049656156,PL_rest_bil,Inferiolateral remainder of parietal lobe,Parietal_lobe
+DND104,56,F,NA,G_cing_ant_bil,Cingulate gyrus anterior part,Insula_and_cingulate_gyri
+DND104,56,F,0.238672894,G_cing_post_bil,Cingulate gyrus posterior part,Insula_and_cingulate_gyri
+DND104,56,F,0.585402736,white_matter,White Matter,Not applicable
+DND105,50,F,0.615541705,FL_mid_fr_G_bil,Middle frontal gyrus,Frontal_lobe
+DND105,50,F,0.384792807,FL_precen_G_bil,Precentral gyrus,Frontal_lobe
+DND105,50,F,0.841485676,FL_OFC_AOG_bil,Anterior orbital gyrus,Frontal_lobe
+DND105,50,F,0.773334671,FL_inf_fr_G_bil,Inferior frontal gyrus,Frontal_lobe
+DND105,50,F,0.651394278,FL_sup_fr_G_bil,Superior frontal gyrus,Frontal_lobe
+DND105,50,F,0.93985212,FL_OFC_LOG_bil,Lateral orbital gyrus,Frontal_lobe
+DND105,50,F,0.272125089,PL_postce_G_bil,Postcentral gyrus,Parietal_lobe
+DND105,50,F,0.382198103,PL_sup_pa_G_bil,Superior parietal gyrus,Parietal_lobe
+DND105,50,F,0.656781146,PL_rest_bil,Inferiolateral remainder of parietal lobe,Parietal_lobe
+DND105,50,F,0.783330307,G_cing_ant_bil,Cingulate gyrus anterior part,Insula_and_cingulate_gyri
+DND105,50,F,0.409641375,G_cing_post_bil,Cingulate gyrus posterior part,Insula_and_cingulate_gyri
+DND105,50,F,0.543736007,white_matter,White Matter,Not applicable
+DND107,55,F,2.86E-07,FL_mid_fr_G_bil,Middle frontal gyrus,Frontal_lobe
+DND107,55,F,0.007557192,FL_precen_G_bil,Precentral gyrus,Frontal_lobe
+DND107,55,F,0.540715515,FL_OFC_AOG_bil,Anterior orbital gyrus,Frontal_lobe
+DND107,55,F,0.262236945,FL_inf_fr_G_bil,Inferior frontal gyrus,Frontal_lobe
+DND107,55,F,0.355140423,FL_sup_fr_G_bil,Superior frontal gyrus,Frontal_lobe
+DND107,55,F,0.508290135,FL_OFC_LOG_bil,Lateral orbital gyrus,Frontal_lobe
+DND107,55,F,0.00936168,PL_postce_G_bil,Postcentral gyrus,Parietal_lobe
+DND107,55,F,1.04E-07,PL_sup_pa_G_bil,Superior parietal gyrus,Parietal_lobe
+DND107,55,F,0.531437612,PL_rest_bil,Inferiolateral remainder of parietal lobe,Parietal_lobe
+DND107,55,F,0.667966143,G_cing_ant_bil,Cingulate gyrus anterior part,Insula_and_cingulate_gyri
+DND107,55,F,0.344319136,G_cing_post_bil,Cingulate gyrus posterior part,Insula_and_cingulate_gyri
+DND107,55,F,0.309745924,white_matter,White Matter,Not applicable
+DND109,50,F,0.833570351,FL_mid_fr_G_bil,Middle frontal gyrus,Frontal_lobe
+DND109,50,F,0.691442924,FL_precen_G_bil,Precentral gyrus,Frontal_lobe
+DND109,50,F,1.060518102,FL_OFC_AOG_bil,Anterior orbital gyrus,Frontal_lobe
+DND109,50,F,0.835805162,FL_inf_fr_G_bil,Inferior frontal gyrus,Frontal_lobe
+DND109,50,F,0.891903335,FL_sup_fr_G_bil,Superior frontal gyrus,Frontal_lobe
+DND109,50,F,0.906698743,FL_OFC_LOG_bil,Lateral orbital gyrus,Frontal_lobe
+DND109,50,F,0.851979587,PL_postce_G_bil,Postcentral gyrus,Parietal_lobe
+DND109,50,F,0.766284395,PL_sup_pa_G_bil,Superior parietal gyrus,Parietal_lobe
+DND109,50,F,1.018008595,PL_rest_bil,Inferiolateral remainder of parietal lobe,Parietal_lobe
+DND109,50,F,1.005532958,G_cing_ant_bil,Cingulate gyrus anterior part,Insula_and_cingulate_gyri
+DND109,50,F,0.650578051,G_cing_post_bil,Cingulate gyrus posterior part,Insula_and_cingulate_gyri
+DND109,50,F,0.785796934,white_matter,White Matter,Not applicable
+DND110,50,M,0.624710641,FL_mid_fr_G_bil,Middle frontal gyrus,Frontal_lobe
+DND110,50,M,0.243739572,FL_precen_G_bil,Precentral gyrus,Frontal_lobe
+DND110,50,M,0.657017517,FL_OFC_AOG_bil,Anterior orbital gyrus,Frontal_lobe
+DND110,50,M,0.71459523,FL_inf_fr_G_bil,Inferior frontal gyrus,Frontal_lobe
+DND110,50,M,0.69345653,FL_sup_fr_G_bil,Superior frontal gyrus,Frontal_lobe
+DND110,50,M,0.775663707,FL_OFC_LOG_bil,Lateral orbital gyrus,Frontal_lobe
+DND110,50,M,NA,PL_postce_G_bil,Postcentral gyrus,Parietal_lobe
+DND110,50,M,0.506995076,PL_sup_pa_G_bil,Superior parietal gyrus,Parietal_lobe
+DND110,50,M,0.668797548,PL_rest_bil,Inferiolateral remainder of parietal lobe,Parietal_lobe
+DND110,50,M,0.784950396,G_cing_ant_bil,Cingulate gyrus anterior part,Insula_and_cingulate_gyri
+DND110,50,M,0.434383806,G_cing_post_bil,Cingulate gyrus posterior part,Insula_and_cingulate_gyri
+DND110,50,M,0.413301729,white_matter,White Matter,Not applicable
+DND113,61,M,0.58833524,FL_mid_fr_G_bil,Middle frontal gyrus,Frontal_lobe
+DND113,61,M,NA,FL_precen_G_bil,Precentral gyrus,Frontal_lobe
+DND113,61,M,0.858492492,FL_OFC_AOG_bil,Anterior orbital gyrus,Frontal_lobe
+DND113,61,M,0.583396041,FL_inf_fr_G_bil,Inferior frontal gyrus,Frontal_lobe
+DND113,61,M,0.75101247,FL_sup_fr_G_bil,Superior frontal gyrus,Frontal_lobe
+DND113,61,M,0.778688351,FL_OFC_LOG_bil,Lateral orbital gyrus,Frontal_lobe
+DND113,61,M,0.39228671,PL_postce_G_bil,Postcentral gyrus,Parietal_lobe
+DND113,61,M,0.61249437,PL_sup_pa_G_bil,Superior parietal gyrus,Parietal_lobe
+DND113,61,M,0.739848795,PL_rest_bil,Inferiolateral remainder of parietal lobe,Parietal_lobe
+DND113,61,M,0.669008038,G_cing_ant_bil,Cingulate gyrus anterior part,Insula_and_cingulate_gyri
+DND113,61,M,0.206099688,G_cing_post_bil,Cingulate gyrus posterior part,Insula_and_cingulate_gyri
+DND113,61,M,0.343762441,white_matter,White Matter,Not applicable
+DND114,65,F,0.012000024,FL_mid_fr_G_bil,Middle frontal gyrus,Frontal_lobe
+DND114,65,F,5.45E-89,FL_precen_G_bil,Precentral gyrus,Frontal_lobe
+DND114,65,F,0.382969702,FL_OFC_AOG_bil,Anterior orbital gyrus,Frontal_lobe
+DND114,65,F,0.298586516,FL_inf_fr_G_bil,Inferior frontal gyrus,Frontal_lobe
+DND114,65,F,0.165093534,FL_sup_fr_G_bil,Superior frontal gyrus,Frontal_lobe
+DND114,65,F,0.579112368,FL_OFC_LOG_bil,Lateral orbital gyrus,Frontal_lobe
+DND114,65,F,1.41E-07,PL_postce_G_bil,Postcentral gyrus,Parietal_lobe
+DND114,65,F,1.32E-06,PL_sup_pa_G_bil,Superior parietal gyrus,Parietal_lobe
+DND114,65,F,0.529113348,PL_rest_bil,Inferiolateral remainder of parietal lobe,Parietal_lobe
+DND114,65,F,0.523420081,G_cing_ant_bil,Cingulate gyrus anterior part,Insula_and_cingulate_gyri
+DND114,65,F,1.09E-06,G_cing_post_bil,Cingulate gyrus posterior part,Insula_and_cingulate_gyri
+DND114,65,F,0.257377751,white_matter,White Matter,Not applicable
+DND115,58,M,1.27E-05,FL_mid_fr_G_bil,Middle frontal gyrus,Frontal_lobe
+DND115,58,M,0.216803644,FL_precen_G_bil,Precentral gyrus,Frontal_lobe
+DND115,58,M,0.247625509,FL_OFC_AOG_bil,Anterior orbital gyrus,Frontal_lobe
+DND115,58,M,0.257823187,FL_inf_fr_G_bil,Inferior frontal gyrus,Frontal_lobe
+DND115,58,M,0.467805681,FL_sup_fr_G_bil,Superior frontal gyrus,Frontal_lobe
+DND115,58,M,0.30502298,FL_OFC_LOG_bil,Lateral orbital gyrus,Frontal_lobe
+DND115,58,M,NA,PL_postce_G_bil,Postcentral gyrus,Parietal_lobe
+DND115,58,M,0.115155712,PL_sup_pa_G_bil,Superior parietal gyrus,Parietal_lobe
+DND115,58,M,0.341329672,PL_rest_bil,Inferiolateral remainder of parietal lobe,Parietal_lobe
+DND115,58,M,0.643821783,G_cing_ant_bil,Cingulate gyrus anterior part,Insula_and_cingulate_gyri
+DND115,58,M,1.16E-07,G_cing_post_bil,Cingulate gyrus posterior part,Insula_and_cingulate_gyri
+DND115,58,M,0.25594316,white_matter,White Matter,Not applicable
+DND118,59,M,7.40E-79,FL_mid_fr_G_bil,Middle frontal gyrus,Frontal_lobe
+DND118,59,M,0.446411603,FL_precen_G_bil,Precentral gyrus,Frontal_lobe
+DND118,59,M,0.691884745,FL_OFC_AOG_bil,Anterior orbital gyrus,Frontal_lobe
+DND118,59,M,0.278626316,FL_inf_fr_G_bil,Inferior frontal gyrus,Frontal_lobe
+DND118,59,M,NA,FL_sup_fr_G_bil,Superior frontal gyrus,Frontal_lobe
+DND118,59,M,NA,FL_OFC_LOG_bil,Lateral orbital gyrus,Frontal_lobe
+DND118,59,M,0.198469044,PL_postce_G_bil,Postcentral gyrus,Parietal_lobe
+DND118,59,M,0.169116757,PL_sup_pa_G_bil,Superior parietal gyrus,Parietal_lobe
+DND118,59,M,NA,PL_rest_bil,Inferiolateral remainder of parietal lobe,Parietal_lobe
+DND118,59,M,0.603941458,G_cing_ant_bil,Cingulate gyrus anterior part,Insula_and_cingulate_gyri
+DND118,59,M,NA,G_cing_post_bil,Cingulate gyrus posterior part,Insula_and_cingulate_gyri
+DND118,59,M,0.381164116,white_matter,White Matter,Not applicable
+DND119,57,M,1.231975568,FL_mid_fr_G_bil,Middle frontal gyrus,Frontal_lobe
+DND119,57,M,0.938088484,FL_precen_G_bil,Precentral gyrus,Frontal_lobe
+DND119,57,M,1.450556815,FL_OFC_AOG_bil,Anterior orbital gyrus,Frontal_lobe
+DND119,57,M,1.239389839,FL_inf_fr_G_bil,Inferior frontal gyrus,Frontal_lobe
+DND119,57,M,1.28440981,FL_sup_fr_G_bil,Superior frontal gyrus,Frontal_lobe
+DND119,57,M,1.461827519,FL_OFC_LOG_bil,Lateral orbital gyrus,Frontal_lobe
+DND119,57,M,1.319018894,PL_postce_G_bil,Postcentral gyrus,Parietal_lobe
+DND119,57,M,1.176204942,PL_sup_pa_G_bil,Superior parietal gyrus,Parietal_lobe
+DND119,57,M,1.631334097,PL_rest_bil,Inferiolateral remainder of parietal lobe,Parietal_lobe
+DND119,57,M,1.263114471,G_cing_ant_bil,Cingulate gyrus anterior part,Insula_and_cingulate_gyri
+DND119,57,M,0.866456854,G_cing_post_bil,Cingulate gyrus posterior part,Insula_and_cingulate_gyri
+DND119,57,M,0.924510687,white_matter,White Matter,Not applicable
+DND121,61,M,0.766441053,FL_mid_fr_G_bil,Middle frontal gyrus,Frontal_lobe
+DND121,61,M,NA,FL_precen_G_bil,Precentral gyrus,Frontal_lobe
+DND121,61,M,1.249860626,FL_OFC_AOG_bil,Anterior orbital gyrus,Frontal_lobe
+DND121,61,M,0.808631452,FL_inf_fr_G_bil,Inferior frontal gyrus,Frontal_lobe
+DND121,61,M,0.89720157,FL_sup_fr_G_bil,Superior frontal gyrus,Frontal_lobe
+DND121,61,M,NA,FL_OFC_LOG_bil,Lateral orbital gyrus,Frontal_lobe
+DND121,61,M,0.830579757,PL_postce_G_bil,Postcentral gyrus,Parietal_lobe
+DND121,61,M,0.81246795,PL_sup_pa_G_bil,Superior parietal gyrus,Parietal_lobe
+DND121,61,M,1.045472846,PL_rest_bil,Inferiolateral remainder of parietal lobe,Parietal_lobe
+DND121,61,M,0.983918338,G_cing_ant_bil,Cingulate gyrus anterior part,Insula_and_cingulate_gyri
+DND121,61,M,0.582382605,G_cing_post_bil,Cingulate gyrus posterior part,Insula_and_cingulate_gyri
+DND121,61,M,0.55305223,white_matter,White Matter,Not applicable
