@@ -8,8 +8,10 @@ setwd('~/R_Projects/agebp/')
 dt <- read.csv('data/SV_DND_long_web.csv')
 dt$nStudy[dt$Study == 'SV'] <- 'Study 1'
 dt$nStudy[dt$Study == 'DND'] <- 'Study 2'
+dt$nSex[dt$Sex == 'M'] <- 'Male'
+dt$nSex[dt$Sex == 'F'] <- 'Female'
 dt$Age2 <- dt$Age*dt$Age
-dt$Study_Sex <- interaction(dt$nStudy, dt$Sex)
+dt$Study_Sex <- interaction(dt$nStudy, dt$nSex)
 
 #Select regions of interest
 d1 <- dt[which(dt$ROI == 'Ventral_striatum_bil' | dt$ROI == 'Putamen_bil'| dt$ROI == 'Hippocampus_bil'| 
@@ -22,8 +24,7 @@ d1$name_f <- factor(d1$name, levels = c('Ventral striatum', 'Hippocampus', 'Subc
 agebp_plot <- ggplot(d1, aes(x=Age, y=BPnd)) + geom_point(aes(shape = Study_Sex)) + theme_bw() + 
   scale_shape_manual(values=c(0,1,15,16)) + geom_smooth(method=lm, colour = 'red', fill = 'red') +
   geom_smooth(method=lm, formula = y ~ x + I(x^2), colour = 'blue', fill = 'blue') + 
-  facet_wrap(~ name_f, ncol = 3, scales = "free_y")
-
+  facet_wrap(~ name_f, ncol = 3, scales = "free_y") + theme(legend.position = 'top')
 
 #save
-ggsave(plot=agebp_plot,height=6,width=7,dpi=200, filename="tables/ageBP.pdf", useDingbats=FALSE)
+ggsave(plot=agebp_plot,height=6,width=7,dpi=600, filename="tables/ageBP.pdf", useDingbats=FALSE)
