@@ -1,6 +1,6 @@
 # age bp - age and binding potential in subval and dnd data sets
 # remove outlies and beging analysis
-# 5.17.18 KLS
+# 5.17.18 KLS updated 1.25.18 to include all data
 
 # Open packages, set working directory and functions
 rm(list=ls())
@@ -11,11 +11,12 @@ setwd("~/R_Projects/agebp/")
 sv <- read.csv('data/SV_bilateral_PVC_BPnd_clean.csv', header = TRUE)
 dnd <- read.csv('data/DND_bilateral_PVC_BPnd_clean.csv', header = TRUE)
 dt <- rbind.fill(sv,dnd)
-roi_include <- as.character(as.vector(read.csv('data/SV_DND_inclusions.csv', header = TRUE))$x)
-dt <- dt[c('Subject', 'Age', 'Sex', roi_include)]
+#roi_include <- as.character(as.vector(read.csv('data/SV_DND_inclusions.csv', header = TRUE))$x)
+#dt <- dt[c('Subject', 'Age', 'Sex', roi_include)]
 
 # Cut Occipital Lobes and white matter
 dt <- dt[-grep('OL_', colnames(dt))]
+dt <- dt[-grep('white_matter', colnames(dt))]
 
 rm(dnd,sv, roi_include)
 # =============

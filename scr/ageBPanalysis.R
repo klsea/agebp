@@ -67,7 +67,7 @@ t <- roi_column(d0, name[1])
 for (i in 2:length(name)) {
   t[i+1] <- roi_column(d0, name[i])[2]
 }
-write.csv(t, 'tables/frontal.csv', row.names = FALSE)
+#write.csv(t, 'tables/frontal.csv', row.names = FALSE)
 
 # ==============
 # Subcortical and Insula
@@ -80,7 +80,7 @@ t <- roi_column(d0, name[1])
 for (i in 2:length(name)) {
   t[i+1] <- roi_column(d0, name[i])[2]
 }
-write.csv(t, 'tables/subcortex.csv', row.names = FALSE)
+#write.csv(t, 'tables/subcortex.csv', row.names = FALSE)
 
 # ==============
 # Temporal lobes
@@ -103,7 +103,7 @@ t <- roi_column(d2, name[1])
 for (i in 2:length(name)) {
   t[i+1] <- roi_column(d2, name[i])[2]
 }
-write.csv(t, 'tables/medialtemporal.csv', row.names = FALSE)
+#write.csv(t, 'tables/medialtemporal.csv', row.names = FALSE)
 
 # Create table for lateral regions
 d2 <- d1[which(d1$ml_class == "L"),]
@@ -113,4 +113,4 @@ t <- roi_column(d2, name[1])
 for (i in 2:length(name)) {
   t[i+1] <- roi_column(d2, name[i])[2]
 }
-write.csv(t, 'tables/lateraltemporal.csv', row.names = FALSE)
+#write.csv(t, 'tables/lateraltemporal.csv', row.names = FALSE)
