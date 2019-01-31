@@ -1,4 +1,7 @@
 # 6.9.18 KLS
+# update 1.30.19 include sample size in tables
+# and use all data 
+# manuscript tables 3-8
 
 # Load packages and data
 rm(list=ls())
@@ -39,6 +42,7 @@ stars <- function(stat) {
 }
 roi_column <- function(data, roi) {
   dt <- data[which(data$name == roi),]
+  n <- nrow(dt) - sum(is.na(dt))
   m0 <- lm(BPnd ~ Study + Sex, data = dt)
   m1 <- lm(BPnd ~ Study + Sex + Age, data = dt)
   m2 <- lm(BPnd ~ Study + Sex + Age + Age2, data = dt)
@@ -51,15 +55,15 @@ roi_column <- function(data, roi) {
   m2_e <- est_w_ci(m2)
   m2_r <- cbind('R2 change', paste0(round(modelCompare(m1,m2)$DeltaR2,3), stars(modelCompare(m1,m2)$p)))
   m2_t <- rbind(m2_e, m2_r)
-  roi_table <- as.data.frame(rbind(m0_t, m1_t, m2_t))
+  roi_table <- as.data.frame(rbind(n, m0_t, m1_t, m2_t))
   colnames(roi_table) <- c('Parameter', roi)
   return(roi_table)
 }
 
-# ========================
-# Frontal lobes and Insula
-# ========================
-d0 <- dt[which(dt$lobe == 'Frontal_lobe'),]
+# ==============
+# Subcortical (T3)
+# ==============
+d0 <- dt[which(dt$lobe == 'Subcortical'),]
 d0$name <- factor(d0$name); name <- levels(d0$name)
 
 # Create table
@@ -67,12 +71,12 @@ t <- roi_column(d0, name[1])
 for (i in 2:length(name)) {
   t[i+1] <- roi_column(d0, name[i])[2]
 }
-#write.csv(t, 'tables/frontal.csv', row.names = FALSE)
+write.csv(t, 'tables/subcortex.csv', row.names = FALSE)
 
-# ==============
-# Subcortical and Insula
-# ==============
-d0 <- dt[which(dt$lobe == 'Subcortical'| dt$lobe == 'Insula_and_cingulate_gyri'),]
+# ========================
+# Medial Frontal lobes and Insula (T4)
+# ========================
+d0 <- dt[which(dt$lobe == 'Medial_frontal_lobe'),]
 d0$name <- factor(d0$name); name <- levels(d0$name)
 
 # Create table
@@ -80,37 +84,57 @@ t <- roi_column(d0, name[1])
 for (i in 2:length(name)) {
   t[i+1] <- roi_column(d0, name[i])[2]
 }
-#write.csv(t, 'tables/subcortex.csv', row.names = FALSE)
+write.csv(t, 'tables/medialfrontal.csv', row.names = FALSE)
 
-# ==============
-# Temporal lobes
-# ==============
-d0 <- dt[which(dt$lobe == 'Temporal_lobe'),]
-levels(d0$name)[levels(d0$name)==" Superior temporal gyrus anterior part"] <- "Superior temporal gyrus anterior part"
+# ========================
+# Anterior Frontal lobes (T5)
+# ========================
+d0 <- dt[which(dt$lobe == 'Anterior_frontal_lobe'),]
 d0$name <- factor(d0$name); name <- levels(d0$name)
 
-# Split into medial and lateral regions
-ml_class <- c('L', 'M', 'L', 'M', 'M', 'M', 'L', 'M', 'L', 'L')
-a <- data.frame(name, ml_class)
-d1 <- merge(d0,a, by='name')
-rm(ml_class, a)
-
-# Create table for medial regions
-d2 <- d1[which(d1$ml_class == "M"),]
-d2$name <- factor(d2$name); name <- levels(d2$name)
-
-t <- roi_column(d2, name[1])
+# Create table
+t <- roi_column(d0, name[1])
 for (i in 2:length(name)) {
-  t[i+1] <- roi_column(d2, name[i])[2]
+  t[i+1] <- roi_column(d0, name[i])[2]
 }
-#write.csv(t, 'tables/medialtemporal.csv', row.names = FALSE)
+write.csv(t, 'tables/anteriorfrontal.csv', row.names = FALSE)
 
-# Create table for lateral regions
-d2 <- d1[which(d1$ml_class == "L"),]
-d2$name <- factor(d2$name); name <- levels(d2$name)
+# ========================
+# Posterior Frontal lobes (T6)
+# ========================
+d0 <- dt[which(dt$lobe == 'Posterior_frontal_lobe' | dt$lobe == 'Parietal_lobe'),]
+d0$name <- factor(d0$name); name <- levels(d0$name)
 
-t <- roi_column(d2, name[1])
+# Create table
+t <- roi_column(d0, name[1])
 for (i in 2:length(name)) {
-  t[i+1] <- roi_column(d2, name[i])[2]
+  t[i+1] <- roi_column(d0, name[i])[2]
 }
-#write.csv(t, 'tables/lateraltemporal.csv', row.names = FALSE)
+write.csv(t, 'tables/posteriorfrontal.csv', row.names = FALSE)
+
+# ========================
+# Medial Temporal lobes (T7)
+# ========================
+d0 <- dt[which(dt$lobe == 'Medial_temporal_lobe'),]
+d0$name <- factor(d0$name); name <- levels(d0$name)
+
+# Create table
+t <- roi_column(d0, name[1])
+for (i in 2:length(name)) {
+  t[i+1] <- roi_column(d0, name[i])[2]
+}
+write.csv(t, 'tables/medialtemporal.csv', row.names = FALSE)
+
+# ========================
+# Lateral Temporal lobes (T8)
+# ========================
+d0 <- dt[which(dt$lobe == 'Lateral_temporal_lobe'),]
+d0$name <- factor(d0$name); name <- levels(d0$name)
+
+# Create table
+t <- roi_column(d0, name[1])
+for (i in 2:length(name)) {
+  t[i+1] <- roi_column(d0, name[i])[2]
+}
+write.csv(t, 'tables/lateraltemporal.csv', row.names = FALSE)
+
