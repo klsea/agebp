@@ -43,7 +43,7 @@ rm(d1,d2,d3,d4,d6,u,v)
 s <- matrix(nrow = 0, ncol=2)
 for (r in ROI){
   a <- t.test(dt$BPnd[dt$ROI == r] ~ dt$Study[dt$ROI == r])
-  row <- cbind(r, paste0(round(a$statistic,2), ' [', round(a$conf.int[1],2), ', ', round(a$conf.int[2],2), ']'))
+  row <- cbind(r, paste0(round((a$estimate[1][[1]] - a$estimate[2][[1]]),2), ' [', round(a$conf.int[1],2), ', ', round(a$conf.int[2],2), ']'))
   s <- rbind(s,row)
 }
 d7 <- merge(d5[c(1, 4, 2:3, 6:7)],s, by.x = 'Region' , by.y = 'r' )
@@ -54,8 +54,8 @@ d8 <- d7[order(-d7$`avg BPND`),]
 d9 <- d8[c(2:3,5:7)]
 rm(a,r,s,row,d5,d6,d6,d7,d8,ROI)
 
-colnames(d9) <- c('Region', 'Overall BPND M (SD)', 'Study 1 BPND M (SD)', 'Study 2 BPND M (SD)', 'Study t-value [95% CI]')
+colnames(d9) <- c('Region', 'Overall BPND M (SD)', 'Study 1 BPND M (SD)', 'Study 2 BPND M (SD)', 'Mean difference [95% CI]')
 
 #Save
-write.csv(d9, 'tables/descriptive.csv', row.names = FALSE)
+write.csv(d9, 'tables/descriptive_meandiff.csv', row.names = FALSE)
 
