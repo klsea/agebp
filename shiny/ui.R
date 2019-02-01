@@ -10,14 +10,7 @@
 library(shiny)
 
 # Load data
-data1 <- read.csv('data/SV_DND_long_web.csv')
-data1$nstudy <- 2
-data2 <- read.csv('data/only_DND_long_web.csv')
-data2$Study <- 'DND'
-data2$nstudy <- 1
-data2 <- data2[which(data2$ROI != 'white_matter'),]
-data <- rbind(data1, data2)
-rm(data1,data2)
+data <- read.csv('data/SV_DND_long_web.csv')
 pics <- read.csv('data/brainPics.csv')
 data$Age2 <- data$Age*data$Age
 data$Study_Sex <- interaction(data$Study, data$Sex)
