@@ -1,34 +1,34 @@
-"ROI","Age x Study Interaction","M1 effect of Age","M2 effect of Age","Difference"
-"Ventral striatum","0.042","-0.055","-0.101",0.046
-"Pallidum","-0.018","-0.003","-0.021",0.018
-"Subcallosal area","0.089","-0.017","-0.03",0.013
-"Caudate nucleus","0.084","-0.163","-0.154",-0.009
-"Amygdala","0.011","-0.009","-0.013",0.004
-"Subgenual frontal cortex","0.009","-0.011","-0.007",-0.004
-"Superior frontal gyrus","0.008","-0.007","-0.003",-0.004
-"Anterior orbital gyrus","0.011","-0.009","-0.006",-0.003
-"Hippocampus","0.003","-0.001","-0.004",0.003
-"Inferiolateral remainder of parietal lobe","0.008","-0.01","-0.007",-0.003
-"Inferior frontal gyrus","0.011","-0.009","-0.006",-0.003
-"Lateral orbital gyrus","0.013","-0.011","-0.008",-0.003
-"Postcentral gyrus","0.015","-0.009","-0.006",-0.003
-"Posterior orbital gyrus","0.008","-0.007","-0.004",-0.003
-"Precentral gyrus","0.005","-0.005","-0.002",-0.003
-"Superior parietal gyrus","0.009","-0.006","-0.003",-0.003
-"Superior temporal gyrus, anterior","0.015","-0.015","-0.012",-0.003
-"Anterior temporal lobe, medial","0.012","-0.013","-0.011",-0.002
-"Cingulate gyrus, anterior","0.003","-0.006","-0.004",-0.002
-"Medial orbital gyrus","0.01","-0.008","-0.006",-0.002
-"Middle frontal gyrus","0.012","-0.009","-0.007",-0.002
-"Parahippocampal and ambient gyri","0.01","-0.005","-0.003",-0.002
-"Straight gyrus","0.012","-0.009","-0.007",-0.002
-"Anterior temporal lobe, lateral","0.015","-0.014","-0.013",-0.001
-"Cingulate gyrus, posterior","0.005","-0.006","-0.005",-0.001
-"Fusiform gyrus","0.012","-0.008","-0.007",-0.001
-"Insula","0.018","-0.019","-0.018",-0.001
-"Middle and inferior temporal gyrus","0.015","-0.011","-0.01",-0.001
-"Posterior temporal lobe","0.009","-0.006","-0.005",-0.001
-"Pre-subgenual frontal cortex","0.006","-0.003","-0.002",-0.001
-"Putamen","0.071","-0.132","-0.133",0.001
-"Superior temporal gyrus, posterior","0.008","-0.01","-0.009",-0.001
-"Thalamus","0","-0.007","-0.007",0
+"ROI","Study 1 effect of Age","Study 2 effect of Age","Difference"
+"Subcallosal area","-0.004","-0.095",0.091
+"Caudate nucleus","-0.127","-0.214",0.087
+"Putamen","-0.112","-0.183",0.071
+"Ventral striatum","-0.087","-0.135",0.048
+"Insula","-0.012","-0.03",0.018
+"Pallidum","-0.026","-0.01",-0.016
+"Anterior temporal lobe, lateral","-0.009","-0.024",0.015
+"Middle and inferior temporal gyrus","-0.005","-0.02",0.015
+"Postcentral gyrus","-0.002","-0.017",0.015
+"Superior temporal gyrus, anterior","-0.008","-0.023",0.015
+"Lateral orbital gyrus","-0.004","-0.018",0.014
+"Anterior temporal lobe, medial","-0.007","-0.019",0.012
+"Fusiform gyrus","-0.004","-0.016",0.012
+"Inferior frontal gyrus","-0.002","-0.014",0.012
+"Middle frontal gyrus","-0.003","-0.015",0.012
+"Straight gyrus","-0.003","-0.015",0.012
+"Amygdala","-0.009","-0.02",0.011
+"Anterior orbital gyrus","-0.003","-0.014",0.011
+"Medial orbital gyrus","-0.003","-0.013",0.01
+"Parahippocampal and ambient gyri","0","-0.01",0.01
+"Posterior temporal lobe","-0.002","-0.012",0.01
+"Superior parietal gyrus","0","-0.01",0.01
+"Subgenual frontal cortex","-0.004","-0.013",0.009
+"Superior temporal gyrus, posterior","-0.006","-0.015",0.009
+"Inferiolateral remainder of parietal lobe","-0.005","-0.013",0.008
+"Posterior orbital gyrus","-0.002","-0.01",0.008
+"Superior frontal gyrus","-0.001","-0.009",0.008
+"Pre-subgenual frontal cortex","0","-0.006",0.006
+"Cingulate gyrus, posterior","-0.003","-0.008",0.005
+"Precentral gyrus","-0.001","-0.006",0.005
+"Cingulate gyrus, anterior","-0.003","-0.006",0.003
+"Hippocampus","-0.003","-0.006",0.003
+"Thalamus","-0.007","-0.007",0
