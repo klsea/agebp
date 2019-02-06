@@ -58,9 +58,9 @@ shinyServer(function(input, output) {
     # determine roi- input$roi from ui.R
     roi <- input$roi
     data <- data[which(data$name == roi),]
-    # calc perc change 
+    # calc perc difference 
     perc <- calcPercChng(data,roi)
-    paste0("The ", roi, " shows ", perc, "% change in binding potential per decade.")
+    paste0("The ", roi, " shows ", perc, "% difference in binding potential per decade.")
   })
   output$linearText <- renderText({
     # determine roi- input$roi from ui.R
@@ -125,11 +125,7 @@ shinyServer(function(input, output) {
     # determine roi- input$roi from ui.R
     roi <- input$roi
     data <- data[which(data$name == roi),]
-    if (data$nstudy == 2) {
-      baseline <- lm(BPnd ~ Study + Sex, data = data)
-    } else {
-      baseline <- lm(BPnd ~Sex, data = data)
-    }
+    baseline <- lm(BPnd ~Sex, data = data)
     summary(baseline)
   })
   output$linear <- renderPrint ({
@@ -137,11 +133,7 @@ shinyServer(function(input, output) {
     if (input$linear) {
     roi <- input$roi
     data <- data[which(data$name == roi),]
-    if (data$nstudy == 2) {
-      linear <- lm(BPnd ~ Study + Sex + Age, data = data)
-    } else {
-      linear <- lm(BPnd ~ Sex + Age, data = data)
-    }
+    linear <- lm(BPnd ~ Sex + Age, data = data)
     summary(linear)
     }
   })
@@ -150,11 +142,7 @@ shinyServer(function(input, output) {
     if (input$quadratic) {
       roi <- input$roi
       data <- data[which(data$name == roi),]
-      if (data$nstudy == 2) { 
-        quadratic <- lm(BPnd ~ Study + Sex + Age + Age2, data = data)
-      } else {
-        quadratic <- lm(BPnd ~ Sex + Age + Age2, data = data)
-      }
+      quadratic <- lm(BPnd ~ Sex + Age + Age2, data = data)
       summary(quadratic)
     }
   })

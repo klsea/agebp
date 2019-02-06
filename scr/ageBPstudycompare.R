@@ -29,6 +29,12 @@ model_diff <- function(data,roi) {
   diff <- round(study1age(data,roi) - study2age(data,roi),3)
 }
 
+getmode <- function(v) {
+  # Calculate the mode of a vector
+  uniqv <- unique(v)
+  uniqv[which.max(tabulate(match(v, uniqv)))]
+}
+
 # Create table with values from all calculations and comparisons by ROI
 name <- levels(dt$name)
 t <- matrix(nrow=length(name), ncol = 4)
@@ -45,3 +51,7 @@ colnames(study_compare) <- c('ROI', 'Study 1 effect of Age', 'Study 2 effect of 
 study_compare$Difference <- as.numeric(as.character(study_compare$Difference))
 study_compare_order <- study_compare[order(-abs(study_compare$Difference)),]
 write.csv(study_compare_order, 'tables/studycomparison.csv', row.names = FALSE)
+
+mean(study_compare$Difference)
+median(study_compare$Difference)
+getmode(study_compare$Difference)
