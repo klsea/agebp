@@ -68,8 +68,8 @@ shinyServer(function(input, output) {
     data <- data[which(data$name == roi),]
     linmodel <- lm(BPnd ~ Age + Sex, data = data)
     linci <- confint(linmodel)
-    ifelse(input$linear, paste0(" - Linear slope: ", as.character(signif(as.table(linmodel$coefficients)[2], 2)), " [ ", 
-                                as.character(signif(linci[2], 2)), " , ", as.character(signif(linci[4], 2)), " ] 95% CI from linear model."
+    ifelse(input$linear, paste0(" - Linear slope: ", as.character(signif(as.table(linmodel$coefficients)[2], 2)), " [", 
+                                as.character(signif(linci[2], 2)), " , ", as.character(signif(linci[4], 2)), "] 95% CI from linear model."
                                 ), "" )
   })
   
@@ -80,8 +80,8 @@ shinyServer(function(input, output) {
     quadmodel <- lm(BPnd ~ Age2 + Age + Sex, data = data)
     quadci <- confint(quadmodel)
     ifelse(input$quadratic, paste0(" - Quadratic coefficient: ", as.character(signif(as.table(quadmodel$coefficients)[2], 2)), 
-                                   " [ ", as.character(signif(quadci[2], 2)), " , ", as.character(signif(quadci[4], 2)), 
-                                   " ] 95% CI from linear + quadratic model."), "")
+                                   " [", as.character(signif(quadci[2], 2)), " , ", as.character(signif(quadci[4], 2)), 
+                                   "] 95% CI from linear + quadratic model."), "")
   })
   output$anovaText <- renderText({
     # determine roi- input$roi from ui.R
