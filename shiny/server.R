@@ -66,7 +66,7 @@ shinyServer(function(input, output) {
     # determine roi- input$roi from ui.R
     roi <- input$roi 
     data <- data[which(data$name == roi),]
-    linmodel <- lm(BPnd ~ Age + Sex, data = data)
+    linmodel <- lm(BPnd ~ Age + Sex + Study, data = data)
     linci <- confint(linmodel)
     ifelse(input$linear, paste0(" - Linear slope: ", as.character(signif(as.table(linmodel$coefficients)[2], 2)), " [", 
                                 as.character(signif(linci[2], 2)), " , ", as.character(signif(linci[4], 2)), "] 95% CI from linear model."
@@ -77,7 +77,7 @@ shinyServer(function(input, output) {
     # determine roi- input$roi from ui.R
     roi <- input$roi
     data <- data[which(data$name == roi),]
-    quadmodel <- lm(BPnd ~ Age2 + Age + Sex, data = data)
+    quadmodel <- lm(BPnd ~ Age2 + Age + Sex + Study, data = data)
     quadci <- confint(quadmodel)
     ifelse(input$quadratic, paste0(" - Quadratic coefficient: ", as.character(signif(as.table(quadmodel$coefficients)[2], 2)), 
                                    " [", as.character(signif(quadci[2], 2)), " , ", as.character(signif(quadci[4], 2)), 
@@ -87,9 +87,9 @@ shinyServer(function(input, output) {
     # determine roi- input$roi from ui.R
     roi <- input$roi
     data <- data[which(data$name == roi),]
-    baseline <- lm(BPnd ~ Sex, data = data)
-    linmodel <- lm(BPnd ~ Age + Sex, data = data)
-    quadmodel <- lm(BPnd ~ Age + Age2 + Sex, data = data)
+    baseline <- lm(BPnd ~ Sex + Study, data = data)
+    linmodel <- lm(BPnd ~ Age + Sex + Study, data = data)
+    quadmodel <- lm(BPnd ~ Age + Age2 + Sex + Study, data = data)
     atable <- anova(baseline,linmodel, quadmodel)
     f <- summary(baseline)$fstatistic
     pf<- pf(f[1], f[2],f[3],lower.tail=F)
@@ -125,7 +125,7 @@ shinyServer(function(input, output) {
     # determine roi- input$roi from ui.R
     roi <- input$roi
     data <- data[which(data$name == roi),]
-    baseline <- lm(BPnd ~Sex, data = data)
+    baseline <- lm(BPnd ~Sex + Study, data = data)
     summary(baseline)
   })
   output$linear <- renderPrint ({
@@ -133,7 +133,7 @@ shinyServer(function(input, output) {
     if (input$linear) {
     roi <- input$roi
     data <- data[which(data$name == roi),]
-    linear <- lm(BPnd ~ Sex + Age, data = data)
+    linear <- lm(BPnd ~ Sex + Study + Age, data = data)
     summary(linear)
     }
   })
@@ -142,7 +142,7 @@ shinyServer(function(input, output) {
     if (input$quadratic) {
       roi <- input$roi
       data <- data[which(data$name == roi),]
-      quadratic <- lm(BPnd ~ Sex + Age + Age2, data = data)
+      quadratic <- lm(BPnd ~ Sex + Study + Age + Age2, data = data)
       summary(quadratic)
     }
   })
